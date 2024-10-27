@@ -1,6 +1,6 @@
-![golangci-lint](https://github.com/angelodlfrtr/go-invoice-generator/actions/workflows/golangci-lint.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/angelodlfrtr/go-invoice-generator)](https://goreportcard.com/report/github.com/angelodlfrtr/go-invoice-generator)
-[![GoDoc](https://godoc.org/github.com/angelodlfrtr/go-invoice-generator?status.svg)](https://godoc.org/github.com/angelodlfrtr/go-invoice-generator)
+![golangci-lint](https://github.com/rareplanet1/go-invoice-generator/actions/workflows/golangci-lint.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rareplanet1/go-invoice-generator)](https://goreportcard.com/report/github.com/rareplanet1/go-invoice-generator)
+[![GoDoc](https://godoc.org/github.com/rareplanet1/go-invoice-generator?status.svg)](https://godoc.org/github.com/rareplanet1/go-invoice-generator)
 
 # Golang invoice generator
 
@@ -8,6 +8,8 @@ A super fast golang package to generate invoices, delivery notes and quotations 
 using https://github.com/go-pdf/fpdf.
 
 ## Download from Github
+
+The fork is not intended for public use, so download the original repo instead:
 
 ```
 go get -u github.com/angelodlfrtr/go-invoice-generator
@@ -26,7 +28,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	generator "github.com/angelodlfrtr/go-invoice-generator"
+	generator "github.com/rareplanet1/go-invoice-generator"
 )
 
 func TestNew(t *testing.T) {
